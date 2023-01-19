@@ -25,7 +25,10 @@ nav{
     height: 80px;
     line-height: 80px;
     z-index: 111;
-    background-color: red;
+}
+b{
+    font-size: 70px;
+    color: #7f00ff;
 }
 .logo{
     display: flex;
@@ -34,5 +37,29 @@ nav{
     color: #3d535f;
     letter-spacing: 3px;
     cursor: pointer;
-    text-transform: uppercase;
+    text-transform: uppercase; 
+
+}
+.navItems{
+    display: flex;
+}
+.navItems li{
+    list-style: none;
+    margin: 0 15px;
+}
+.navItems li a{
+    font-size: 25px;
+    color: #3d535f;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.navItems li:hover a,
+.links a:hover{
+    color: #7f00ff;
+}
+.links a{
+    font-size: 30px;
+    color: #3d535f;
+    margin: 25px 10px;
 }
